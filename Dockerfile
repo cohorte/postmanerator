@@ -29,7 +29,7 @@ RUN apt-get update \
 
 RUN pip install WeasyPrint 
 
-ENV REFRESHED_AT 20170919_1021
+ENV REFRESHED_AT 20171003_1100
 
 COPY callpostmanerator.sh /root
 COPY ./theme/cohorte /root/.postmanerator/themes/cohorte
